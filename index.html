@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anton's Portfolio</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- FLOATING NAVBAR -->
+<nav class="navbar">
+  <a href="#home" class="nav-link active">Home</a>
+  <a href="#projects" class="nav-link">Projects</a>
+  <a href="#skills" class="nav-link">Skills</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section hero">
+  <div class="avatar">
+    <img src="images/IMG_9421.jpeg" alt="Profile">
+  </div>
+
+  <h1>Hey, I'm <span>Anton</span> 👋</h1>
+
+  <p class="location">
+    <i class="fa-solid fa-location-dot"></i>
+    Kilkenny, Ireland
+  </p>
+
+  <p class="role">Computer Science Student</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+  <h2>My Projects</h2>
+
+  <div class="project-card">
+    <div class="project-header">
+      <h3>My Portfolio</h3>
+      <p>
+        [Description]
+      </p>
+    </div>
+
+    <div class="tech-stack">
+      <span><i class="fa-brands fa-html5"></i></span>
+      <span><i class="fa-brands fa-css3-alt"></i></span>
+      <span><i class="fa-brands fa-js"></i></span>
+    </div>
+
+    <div class="project-image">
+      <img src="project.png" alt="Project Preview">
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section skills">
+  <h2>My Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML 5</span></div>
+    <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+    <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+    <div class="skill-card"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+    <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+    <div class="skill-card"><i class="fa-solid fa-code"></i><span>SQL</span></div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  <p class="contact-sub">
+    Let's work together or just say hi 👋
+  </p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">
+      Send Message <i class="fa-solid fa-paper-plane"></i>
+    </button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+ <footer class="simple-footer">
+    <div class="footer-container">
+        <div class="copyright">
+            © <span class="year">2026</span> <span class="name">Anton Patricio</span>. ALL rights reserved.
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/antonpatricio" class="social-icon" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anton-patricio-737018368/" class="social-icon" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/anton_patricio/" class="social-icon" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
+
